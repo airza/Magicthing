@@ -1,0 +1,22 @@
+hand testing - Which hands are good, which hands are bad?
+    Users- Users own decks, can playtest their decks, they have passwords, emails, change passwords
+    Deck- Decks are owned by users, they have a name, a description, a list of Cards
+    Cards- Cards are magic cards.
+    Decks - Shuffling deck
+    Test - A test has 2 hands, the user's preference. WE also want to be able to aggregate these to decide "why" a user prefers some hands. "Left hand is way better, left hand is a little better, about the same..."
+
+UI concerns
+    All of these should be single pages, except the test page which will use AJAX
+    Paste the decklist from moxfield, then our program will crop out the set name and parse the cards.
+
+Business logic
+    Users shouldn't be able to see other users decks or tests.
+    We should be able to see "insights" from our tests.
+    Being able to share the results of a deck test should be possible, but as read-only!
+    (Nice to have) Removing one card from the deck shouldn't invalidate testing.
+    Delete/Edit decks, users, should be possible
+    "wipe tests"
+Architecture
+Database - sqlite3
+frontend - typescript
+backend - also typescript

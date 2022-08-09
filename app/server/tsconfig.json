@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es2021",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "downlevelIteration": true,
+        "sourceMap": true,
+    },
+    "esModuleInterop": true,
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended",
+    "include": ["src/*.ts"],
+}
