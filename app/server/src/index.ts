@@ -12,7 +12,7 @@ app.use("/static",express.static(path.join(__dirname,'./static'),{
 }));
 app.get('/', (req, res) => {
     //Check if the user is logged in
-    const username = req.query.name ?? "No username???"
+    const username = req.query.name ?? "Hi";
     res.send(index({name:username}))
 })
 app.get('/login',(req, res) => {
