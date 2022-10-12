@@ -10,6 +10,7 @@ UI concerns
     Paste the decklist from moxfield, then our program will crop out the set name and parse the cards.
 
 Business logic
+    +Users should have unique usernames
     Users shouldn't be able to see other users decks or tests.
     We should be able to see "insights" from our tests.
     Being able to share the results of a deck test should be possible, but as read-only!
